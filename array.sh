@@ -1,5 +1,5 @@
 #!/bin/bash
 
-Sports = ("Cricket" "Tennis" "Football" "Golf")
+Sports=("Cricket" "Tennis" "Football" "Golf")
 
-echo "first movie is: sports[0]"
+echo "first movie is: $sports[0]"
