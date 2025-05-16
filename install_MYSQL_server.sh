@@ -13,6 +13,16 @@ fi
 
 dnf install mysql -y      #mysql installation command
 
+if [ $? -eq 0 ]
+then
+    echo "Installation of MYSQL is success......."
+else
+    echo "Installation of MYSQL is failed........"
+    #exit 21
+fi
+
+
+
 
 
 
