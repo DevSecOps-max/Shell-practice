@@ -11,7 +11,7 @@ else
     echo "running with the root access"
 fi
 
-dnf install mysql -y      #mysql installation command
+dnf install mysqlllllllllllll -y      #mysql installation command
 
 if [ $? -eq 0 ]
 then
