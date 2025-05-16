@@ -6,6 +6,7 @@ USERID=$(id -u)  #Shell will execute the command inside braces and store the val
 if [ $USERID -ne 0 ]
 then
     echo "Error: Please run the script with the root access"
+    exit 11 #You can pass any value other than 0 upto 127
 else
     echo "running with the root access"
 fi
