@@ -27,7 +27,6 @@ then
     fi
 else
     echo "MYSQL is already installed.. Nothing to do"
-    exit 31
 fi
 
 
