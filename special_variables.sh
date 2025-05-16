@@ -7,6 +7,6 @@ echo "Present working directory is: $PWD"
 echo "user running the script: $USER"
 echo "home directory of the user: $HOME"
 echo "PID of the script: $$"
-sleep 10 &
+sleep 30 &
 echo "PID of the last running command is: $!"
 
