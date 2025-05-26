@@ -10,7 +10,7 @@ TO_ADDRESS=$5
 SUBJECT=$6
 
 
-FINAL_BODY=$(sed -e "s/TO_TEAM/$1/g" -e "s/ALERT_TYPE/$2/g" -e "s/IP_ADDRESS/$3/g" -e "s/MSG/$4/g" template.html)
+FINAL_BODY=$(sed -e "s/TO_TEAM/$1/g" -e "s/ALERT_TYPE/$2/g" -e "s/IP_ADDRESS/$3/g" -e "s/MSG/$FINAL_MSG/g" template.html)
 
 
 {
